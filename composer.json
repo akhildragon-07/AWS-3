@@ -1,0 +1,21 @@
+{
+  "name": "akhil/aws-dynamic-student-portfolio",
+  "description": "AWS Integrated Dynamic Student Portfolio using Amazon EC2, Amazon RDS MySQL, and Amazon DynamoDB",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Akhil Rajan P",
+      "email": "akhilvit28@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "aws/aws-sdk-php": "^3.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "student_portfolio": [
+    {
+      "PutRequest": {
+        "Item": {
+          "student_id": { "S": "akhil-rajan-p" },
+          "category": { "S": "skills" },
+          "name": { "S": "Technical Skills" },
+          "items": {
+            "L": [
+              { "S": "Python" },
+              { "S": "Java" },
+              { "S": "JavaScript" },
+              { "S": "C" },
+              { "S": "C++" },
+              { "S": "FastAPI" },
+              { "S": "OpenCV" },
+              { "S": "HTML" },
+              { "S": "CSS" },
+              { "S": "MongoDB" },
+              { "S": "SQLite" },
+              { "S": "SQLAlchemy" },
+              { "S": "Git" },
+              { "S": "GitHub" },
+              { "S": "Postman" },
+              { "S": "VS Code" }
+            ]
+          },
+          "groups": {
+            "M": {
+              "Programming Languages": {
+                "L": [
+                  { "S": "Python" },
+                  { "S": "Java" },
+                  { "S": "JavaScript" },
+                  { "S": "C" },
+                  { "S": "C++" }
+                ]
+              },
+              "Frameworks & Web": {
+                "L": [
+                  { "S": "FastAPI" },
+                  { "S": "OpenCV" },
+                  { "S": "HTML" },
+                  { "S": "CSS" }
+                ]
+              },
+              "Databases": {
+                "L": [
+                  { "S": "MongoDB" },
+                  { "S": "SQLite" },
+                  { "S": "SQLAlchemy" }
+                ]
+              },
+              "Developer Tools": {
+                "L": [
+                  { "S": "Git" },
+                  { "S": "GitHub" },
+                  { "S": "Postman" },
+                  { "S": "VS Code" }
+                ]
+              }
+            }
+          },
+          "description": { "S": "Core programming languages, frameworks, databases, and development tools." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "student_id": { "S": "akhil-rajan-p" },
+          "category": { "S": "certifications" },
+          "name": { "S": "Certifications" },
+          "items": {
+            "L": [
+              { "S": "IBM Agentic AI Internship Certificate" }
+            ]
+          },
+          "description": { "S": "Credential validating practical engineering capability in Agentic AI workflows, prompt optimization, and AI application development." },
+          "issuer": { "S": "IBM" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "student_id": { "S": "akhil-rajan-p" },
+          "category": { "S": "extracurricular" },
+          "name": { "S": "Extracurricular Activities" },
+          "items": {
+            "L": [
+              { "S": "Member – IIAIC Club, VIT-AP University" }
+            ]
+          },
+          "description": { "S": "Active member of IIAIC Club at VIT-AP University participating in technical initiatives, workshops, and AI collaboration." },
+          "organization": { "S": "VIT-AP University" }
+        }
+      }
+    }
+  ]
+}
